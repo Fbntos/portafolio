@@ -232,9 +232,23 @@
                         <p>Lo notable de esta solución es su capacidad para resolver desafíos que emergen de las condiciones ambientales únicas en las que viven estos ejemplares. La aplicación móvil está diseñada para ser completamente funcional incluso sin conexión a internet, lo que es crucial para los entornos en los que operan los veterinarios. Una vez que se restablece la conexión, la información se sincroniza con la plataforma web, manteniéndola accesible y actualizada para todos los profesionales involucrados en la atención y conservación de la vida silvestre. 
                         </p>
 
-                        <a href="#" class="read-more">Ver más <i class="ti-angle-double-right"></i></a>
+                        <button class="btn btn-primary read-more" id="show-modal">Ver imágenes</button>
                     </div>
                 </div>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <div class="modal-content">
+                        <div class="carousel">
+                            <img src="assets/imgs/cal_tralkapp.png" alt="Imagen 1">
+                            <img src="assets/imgs/login_tralkapp.png" alt="Imagen 2">
+                            <img src="assets/imgs/agenda_tralkapp.png" alt="Imagen 3">
+                            <!-- Agrega más imágenes aquí -->
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                </div>
+
 
                 <!-- tourspotter -->
                 <div class="blog-card">
@@ -254,10 +268,22 @@
                             Además, una sección especialmente diseñada ofrece la posibilidad de conocer el valor actual del dólar y el euro a través de otra API consumida por JavaScript. Esta combinación de tecnología, diseño cautivador y contenido dinámico ofrece una experiencia agradable a la vista
                         </p>
 
-                        <a href="#" class="read-more">Ver más <i class="ti-angle-double-right"></i></a>
+                        <button class="btn btn-primary read-more" id="show-modal-2">Ver imágenes</button>
                     </div>
-                </div><!-- end of blog wrapper -->
-
+                </div>
+                <div id="myModal-2" class="modal">
+                    <span class="close">&times;</span>
+                    <div class="modal-content">
+                        <div class="carousel">
+                            <img src="assets/imgs/home_tourspotter.png" alt="Imagen 4">
+                            <img src="assets/imgs/login_tourspotter.png" alt="Imagen 5">
+                            <img src="assets/imgs/register_tourspotter.png" alt="Imagen 6">
+                            <!-- Agrega más imágenes aquí -->
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -278,9 +304,6 @@
 
     <!-- Isotope  -->
     <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
-    
-    <!-- Google mpas -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
 
     <!-- js -->
     <script src="assets/js/fb.js"></script>
