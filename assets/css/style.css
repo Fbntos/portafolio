@@ -2771,10 +2771,11 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+/* 1 */
 .btn-primary {
   color: #fff;
-  background-color: #F85C70;
-  border-color: #F85C70;
+  background-color: #440596;
+  border-color: #935cf8;
 }
 
 .btn-primary:hover {
@@ -3204,14 +3205,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-danger {
-  color: #F85C70;
-  border-color: #F85C70;
+  color: #440596;
+  border-color: #935cf8;
 }
 
 .btn-outline-danger:hover {
   color: #fff;
-  background-color: #F85C70;
-  border-color: #F85C70;
+  background-color: #f63750;
+  border-color: #f62b45;
 }
 
 .btn-outline-danger:focus, .btn-outline-danger.focus {
@@ -5052,8 +5053,8 @@ input[type="button"].btn-block {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
@@ -7192,7 +7193,7 @@ button.bg-warning:focus {
 }
 
 .bg-danger {
-  background-color: #F85C70 !important;
+  background-color: #563097 !important;
 }
 
 a.bg-danger:hover, a.bg-danger:focus,
@@ -10815,9 +10816,9 @@ a.text-info:hover, a.text-info:focus {
 a.text-warning:hover, a.text-warning:focus {
   color: #ff3f36 !important;
 }
-
+/* 2 */
 .text-danger {
-  color: #F85C70 !important;
+  color: #5809DE !important;
 }
 
 a.text-danger:hover, a.text-danger:focus {
@@ -11226,23 +11227,23 @@ p {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  background: rgba(248, 92, 112, 0.8);
+  background: rgb(16 4 39 / 96%);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
   padding: 0 20px;
   color: #fff;
@@ -11410,7 +11411,7 @@ pre .code {
 }
 
 .navbar .nav-link.active {
-  color: #F85C70 !important;
+  color: #440596 !important;
 }
 
 .navbar .brand {
@@ -11600,7 +11601,7 @@ pre .code {
 }
 
 .section {
-  padding: 80px 0;
+  padding: 45px 0;
 }
 
 .section.bg-custom-gray {
