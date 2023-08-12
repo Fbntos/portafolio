@@ -25,8 +25,8 @@ document.getElementById("show-modal").addEventListener("click", function() {
   modal.style.display = "block";
   modal.querySelector(".close").addEventListener("click", closeModal);
 
-  var carousel = document.querySelector(".carousel");
-  var images = document.querySelectorAll(".carousel img");
+  var carousel = document.querySelector("#myModel .carousel");
+  var images = document.querySelectorAll("#myModal .carousel img");
   var currentIndex = 0;
 
   function showImage(index) {
