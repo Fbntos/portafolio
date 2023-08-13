@@ -11707,10 +11707,10 @@ pre .code {
 
 .carousel {
   display: flex;
-  justify-content: center; /* Centrar horizontalmente */
-  align-items: center; /* Centrar verticalmente */
+  justify-content: center; 
+  align-items: center; 
   overflow: hidden;
-  height: 80vh; /* Ajusta la altura deseada */
+  height: 80vh; 
 }
 
 .carousel img {
@@ -11737,8 +11737,8 @@ pre .code {
 }
 
 .close {
-  font-size: 45px; /* Tamaño más grande */
-  color: #fefefe; /* Cambiar el color a blanco o el que desees */
+  font-size: 45px; 
+  color: #fefefe; 
   position: absolute;
   top: 10px;
   right: 15px;
